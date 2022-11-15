@@ -1,0 +1,128 @@
+body {background-color: #3ABCEC;}
+
+a.button{
+ display:inline-block;
+ justify-content: center;
+ padding:46px 92px;
+ border:0.1em solid #000000;
+ margin:0 0.2em 0.2em 0;
+ border-radius:8px;
+ box-sizing: border-box;
+ text-decoration:none;
+ font-family:'Roboto',sans-serif;
+ font-weight:300;
+ color:#000000;
+ text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+ background-color:#E0DE42;
+ text-align:center;
+ transition: all 0.15s;
+ align-items: center;
+}
+a.button:hover{
+ text-shadow: 0 0 2em rgba(255,255,255,1);
+ color:#FFFFFF;
+ border-color:#FFFFFF;
+}
+
+@media all and (max-width:30em){
+ a.button{
+  display:block;
+  margin:0.4em auto;
+ }
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.center1 {
+	  margin: 0;
+	  position: absolute;
+	  top: 150%;
+	  left: 50%;
+	  -ms-transform: translate(-50%, -50%);
+	  transform: translate(-50%, -50%);
+}
+
+.center2 {
+	  margin: 0;
+	  position: absolute;
+	  top: 250%;
+	  left: 50%;
+	  -ms-transform: translate(-50%, -50%);
+	  transform: translate(-50%, -50%);
+}
+
+.center3 {
+	  margin: 0;
+	  position: absolute;
+	  top: 250%;
+	  left: 50%;
+	  -ms-transform: translate(-50%, -50%);
+	  transform: translate(-50%, -50%);
+}
+
+.center4 {
+	  margin: 0;
+	  position: absolute;
+	  top: 350%;
+	  left: 50%;
+	  -ms-transform: translate(-50%, -50%);
+	  transform: translate(-50%, -50%);
+}
+
+.center5 {
+	  margin: 0;
+	  position: absolute;
+	  top:  40%;
+	  left: 50%;
+	  -ms-transform: translate(-50%, -50%);
+	  transform: translate(-50%, -50%);
+}
+
+.center6 {
+	  margin: 0;
+	  position: absolute;
+	  top:  400%;
+	  left: 50%;
+	  -ms-transform: translate(-50%, -50%);
+	  transform: translate(-50%, -50%);
+}
+
+
+div.solid {
+	outline-style: solid;
+	text-align: center;
+	outline-color: #E0DE42;
+	width: 320px;
+	height: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+}
+
+.login {
+    border: 2px solid black;
+    padding: 7px 30px; 
+    background: #FFFF00;
+    border-radius: 25px;
+    box-shadow: 0 0 5px black;
+    font-size: 20px;
+}
+.error {
+	background-color: #3ABCEC;
+	color: #E0DE42;
+	text-align: center;
+	font-size: 40px;
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+	}

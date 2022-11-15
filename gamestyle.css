@@ -1,0 +1,90 @@
+body{
+    font-size: 20px;
+    font-family: Arial;
+	background-color: #3ABCEC;
+	text-align: center;
+}
+#start{
+	display:inline-block;
+	justify-content: center;
+	padding: 23px 46px;
+	border:0.1em solid #000000;
+	margin:0 0.2em 0.2em 0;
+	border-radius:8px;
+	box-sizing: border-box;
+	text-decoration:none;
+	font-family:'Roboto',sans-serif;
+	font-weight:300;
+	color:#000000;
+	text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+	background-color:#E0DE42;
+	text-align:center;
+	transition: all 0.15s;
+	align-items: center;
+	position: relative;
+	top: 200px;
+	cursor: pointer;
+}
+#start:hover{
+    border: 3px solid blue;
+    color : blue;
+}
+#img{
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 375px;
+	height:500px;
+	border: 5px solid black;
+	margin-bottom: 40px;
+}
+#img img{
+    width : 375px;
+    height : 500px;
+}
+
+#question{
+    width:500px;
+    height: 100px;
+    position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+#question p{
+    padding : 10px;
+    font-size: 2em;
+}
+
+#choices{
+    width : 500px;
+    position: relative;
+	margin: auto;
+    padding : 10px
+}
+.choice{
+    text-align: center;
+    border : 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    padding : 7px;
+	margin: 5px;
+}
+.choice:hover{
+    border : 2px solid #E0DE42;
+    font-weight: bold;
+}
+#progress{
+    width : 500px;
+	position: relative;
+	margin: auto;
+    padding:5px;
+}
+.prog{
+    width : 25px;
+    height : 25px;
+    border: 3px solid #000;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left : 5px;
+    margin-right : 5px;
+}

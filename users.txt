@@ -1,0 +1,11 @@
+samu,umas,10,10
+gio,oig,5,7
+mari,iram,8,3
+oto,oto,4,4
+kai,iak,2,3
+ika,aki,5,5
+mia,aim,7,7
+kok,kok,8,8
+ter,ret,9,9
+lol,lol,2,6
+jal,laj,8,7
